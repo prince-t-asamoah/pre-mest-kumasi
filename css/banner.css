@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font: 100% serif;
+}
+
+.banner {
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.left {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 20px 60px;
+    color: white
+}
+
+.right {
+    background-color: blue;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.img,
+h1,
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px;
+    width: 200px;
+    outline: none;
+}
