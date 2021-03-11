@@ -1,13 +1,15 @@
-import MyEightComponent from "./myEightComponent";
-import MyFifthComponent from "./myFifthComponent";
-import MyFirstComponent from "./myFirstComponent";
-import MyFourthComponent from "./myFourthComponent";
-import MyNinthComponent from "./myNinthComponent";
-import MySecondComponent from "./mySecondCompoent";
-import MySeventhComponent from "./mySeventhComponent";
-import MySixthComponent from "./mySixthComponent";
-import MyTenthComponent from "./myTenthComponent";
-import MyThirdComponent from "./myThirdComponent";
+
+import MyFirstComponent from "./components/myFirstComponent";
+import MySecondComponent from "./components/mySecondCompoent";
+import MyThirdComponent from "./components/myThirdComponent";
+import MyFourthComponent from "./components/myFourthComponent";
+import MyFifthComponent from "./components/myFifthComponent";
+import MySixthComponent from "./components/mySixthComponent";
+import MyEightComponent from "./components/myEightComponent";
+import MySeventhComponent from "./components/mySeventhComponent";
+import MyNinthComponent from "./components/myNinthComponent";
+import MyTenthComponent from "./components/myTenthComponent";
+
 
 function App() {
   return (
