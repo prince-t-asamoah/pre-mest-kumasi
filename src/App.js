@@ -1,7 +1,8 @@
+import MyFirstComponent from "./myFirstComponent";
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <MyFirstComponent/>
   );
 };
 
