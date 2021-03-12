@@ -35,6 +35,7 @@ function App() {
         email='asamoahpy@gmail.com'
       />
       <MasterComponent/>
+      <ChildComponent/>
     </div>
   );
 };
