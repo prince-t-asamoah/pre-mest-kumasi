@@ -13,8 +13,9 @@
 // import ChildComponent from './propsComponents/childComponents';
 // import ParentComponent from './propsComponents/parentComponent';
 // import MasterComponent from './propsComponents/masterComponent';
-import Dashboard from './propsDrilling/dashboard';
-import Profile from './propsDrilling/profile';
+// import Dashboard from './propsDrilling/dashboard';
+// import Profile from './propsDrilling/profile';
+import Counter from "./states/counter";
 
 function App() {
   return (
@@ -38,10 +39,11 @@ function App() {
       <MasterComponent/>
       <ChildComponent/> */}
 
-      <Dashboard
+      {/* <Dashboard
         firstName='PRINCE TWUMASI' lastName='ASAMOAH' dateOfBirth='27/05/1993' gender='Male'
-      />
+      /> */}
       {/* <Profile/> */}
+      <Counter/>
     </div>
   );
 };
