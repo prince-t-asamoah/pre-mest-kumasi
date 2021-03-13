@@ -1,6 +1,16 @@
-function Detail() {
+import Notification from './notification';
+
+function Detail(props) {
     return (
-        <h>This is a Detail Component</h>
+        <div>
+            <h2>This is a Detail</h2>
+            <Notification
+                notificationFirstName = {props.detailFirstName}
+                notificationLastName = {props.detailLastName}
+                notificationDateOfBirth = {props.detailDateOfBirth}
+                notificationGender = {props.detailGender}
+            />
+        </div>
     );
 };
 
